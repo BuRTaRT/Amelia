@@ -377,7 +377,7 @@ nav {
 
 @media (max-width: 480px) {
     .hero{
-        align-items: start;
+        align-items: center;
     }
     .hero-content h1 {
         font-size: 22px;
