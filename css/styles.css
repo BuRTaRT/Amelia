@@ -953,6 +953,7 @@ footer {
     position: fixed;
     left: 30px;
     top: 65px;
+    opacity: 0.6;
 }
 .lazy-bg.loaded {
     opacity: 1;
