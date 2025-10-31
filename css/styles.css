@@ -363,7 +363,11 @@ nav {
     line-height: 1.8;
 
 }
-
+#bg{
+    position: absolute;
+    left: 30px;
+    top: 125px;
+}
 .hero-content h2 {
     font-size: 22px;
     color: white;
@@ -372,12 +376,17 @@ nav {
 }
 
 @media (max-width: 480px) {
+    .hero{
+        align-items: start;
+    }
     .hero-content h1 {
         font-size: 22px;
+        margin-top: 20px !important;
     }
 
     .hero-content h2 {
         font-size: 16px;
+
     }
 }
 
