@@ -338,7 +338,7 @@ nav {
 .hero {
     height: 100vh;
     background-size: cover;
-    background-position: -50px;
+    background-position: 60% -50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -365,6 +365,7 @@ nav {
 }
 #bg{
     position: fixed;
+    opacity: 0.6;
     left: 30px;
     top: 125px;
 }
